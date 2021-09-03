@@ -1,0 +1,47 @@
+----------------------------------------------
+     INTERPLANETARY MISSION ASSIGNMENT        
+----------------------------------------------
+Genetic Algorithm running...
+Progress:  100%
+Finished. 
+Elapsed time is 104.452378 seconds.
+Results:
+dv_ga = 23.8545 km/s
+dt_ga = 2243.8492 days
+----------------------------------------------
+Gradient-based optimization running...
+Finished. 
+Elapsed time is 0.421522 seconds.
+Results:
+dv_fmincon = 23.8544 km/s
+dt_fmincon = 2243.8496 days
+----------------------------------------------
+Grid search algorithm running...
+Progress:  100%
+Finished. 
+Elapsed time is 396.398800 seconds.
+Results:
+dv_gs = 23.6279 km/s
+dt_gs = 2071.6323 days
+----------------------------------------------
+The Grid search algorithm provided a more 
+convenient solution with respect to the 
+Gradient based optimization algorithm:
+Grid search:   23.6279 km/s   5.6718 years
+Fmincon:       23.8544 km/s   6.1433 years
+----------------------------------------------
+Porkchop plot calculations running...
+Progress:  100%
+Finished. 
+Elapsed time is 49.636180 seconds.
+----------------------------------------------
+                FINAL RESULTS                 
+----------------------------------------------
+The chosen transfer window consists of:
+Departure date:         12/7/2032 14:22:29.81
+Flyby date:             13/5/2035 2:11:26.96
+Arrival date:           15/3/2038 5:33:0.91
+Total transfer time:    5.6718 years
+Total Δv cost:          23.6279 km/s
+----------------------------------------------
+----------------------------------------------
